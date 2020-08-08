@@ -4,5 +4,17 @@
 GET http://localhost:3001/stores
 
 ### Test creating a store
+POST http://localhost:3001/stores
+Content-Type: application/json
+
+{
+  "title": "Granite Links",
+}
 
 ### Test the PUT which should change a store
+PUT http://localhost:3001/stores
+Content-Type: application/json
+
+{
+  "name": "Crossing Nines"
+}

@@ -7,17 +7,17 @@ POST http://localhost:3001/products
 Content-Type: application/json
 
 {
-  "title": "Golf Pajamas",
-  "description": "The great golf pants"
+  "title": "Golf bag",
+  "description": "The best golf bag to carry all your stuff"
 }
 
 ### Test the PUT which should change a product
 ### id of 5f2b54de320478eb4b1603eb is temporary while server is running
-PUT http://localhost:3001/product
+PUT http://localhost:3001/products
 Content-Type: application/json
 
 {
-  "title": "Amazing UV Shirt"
+  "description": "The best golf bag to carry all your stuff"
 }
 
 
